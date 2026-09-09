@@ -64,6 +64,38 @@ To reduce the risk of patient-level data leakage, images were split at the **pat
 
 ---
 
+## 📁 Repository Structure
+
+```text
+Glaucoma_Detection/
+│
+├── figures/                         # Research figures and visualisations
+│   ├── figure2.png
+│   ├── figure3.png
+│   ├── figure4.png
+│   ├── figure5.png
+│   ├── figure6.png
+│   ├── figure7.png
+│   └── gradcam/                    # Grad-CAM visualisations
+│
+├── results/                         # Model evaluation results
+│   ├── baseline/                   # Baseline CNN results
+│   ├── ensemble/                   # Deep ensemble results
+│   ├── grad_cam/                   # Grad-CAM example results
+│   └── mc_dropout/                 # MC Dropout results
+│
+├── src/                             # Source code
+│   ├── baseline/                   # Baseline model training
+│   ├── ensemble/                   # Deep ensemble training/testing
+│   ├── grad_cam/                   # Grad-CAM generation and analysis
+│   ├── mc_dropout/                 # MC Dropout implementation
+│   └── plotting/                   # ROC, PR and calibration plots
+│
+├── .gitignore
+└── README.md
+
+---
+
 ## 🤖 Model Development
 
 Three CNN architectures were evaluated:
