@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Dataset
+data/images/
+data/labels.csv
+data/splits/
+
+# Trained model weights (large binaries)
+models/*.keras
+models/**/*.keras
+
+# Old Git repository metadata
+.git_old/
