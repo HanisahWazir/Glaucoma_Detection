@@ -85,7 +85,7 @@ Glaucoma_Detection/
 │   └── mc_dropout/                 # MC Dropout results
 │
 ├── src/                             # Source code
-│   ├── baseline/                   # Baseline model training
+│   ├── baseline/                   # Baseline model training and evaluation
 │   ├── ensemble/                   # Deep ensemble training/testing
 │   ├── grad_cam/                   # Grad-CAM generation and analysis
 │   ├── mc_dropout/                 # MC Dropout implementation
@@ -93,7 +93,7 @@ Glaucoma_Detection/
 │
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## 🤖 Model Development
