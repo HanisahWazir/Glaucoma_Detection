@@ -82,7 +82,7 @@ axes[0].plot(
 
 axes[0].set_xlabel("False Positive Rate")
 axes[0].set_ylabel("True Positive Rate")
-axes[0].set_title("ROC Curve for ResNet-50 + MC Dropout")
+axes[0].set_title("(a) ROC Curve for ResNet-50 + MC Dropout")
 axes[0].legend(loc="lower right")
 axes[0].grid(alpha=0.3)
 
@@ -107,7 +107,7 @@ axes[1].hlines(
 
 axes[1].set_xlabel("Recall (Sensitivity)")
 axes[1].set_ylabel("Precision")
-axes[1].set_title("Precision-Recall Curve for ResNet-50 + MC Dropout")
+axes[1].set_title("(b) Precision-Recall Curve for ResNet-50 + MC Dropout")
 axes[1].legend(loc="lower left")
 axes[1].grid(alpha=0.3)
 
