@@ -14,3 +14,7 @@ models/**/*.keras
 
 # Old Git repository metadata
 .git_old/
+
+figures/resnet50_mc_dropout_variance_histogram.png
+figures/resnet50_quality_vs_uncertainty.png
+figures/resnet50_uncertainty_correct_vs_incorrect.png
