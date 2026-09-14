@@ -3,10 +3,11 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# Dataset
-data/images/
-data/labels.csv
-data/splits/
+#statistics
+statistics/*.py
+
+#boostrap results
+results/bootstrap/*.csv
 
 # Trained model weights (large binaries)
 models/*.keras
