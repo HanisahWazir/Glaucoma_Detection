@@ -4,7 +4,7 @@ __pycache__/
 .DS_Store
 
 #statistics
-statistics/*.py
+statistics/
 
 #boostrap results
 results/bootstrap/*.csv
