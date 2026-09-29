@@ -241,3 +241,8 @@ The Deep Ensemble uses the following seeds:
 3456
 4567
 5678
+```
+
+# Glaucoma Detection
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23046682.svg)](https://doi.org/10.5281/zenodo.23046682)
